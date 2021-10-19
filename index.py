@@ -8,15 +8,6 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import datetime as dt
-from datetime import date
-import numpy as np
-from pandas.tseries.holiday import USFederalHolidayCalendar
-from pandas.tseries.offsets import CustomBusinessDay
-from sklearn.preprocessing import StandardScaler
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import LSTM
-from keras.layers import Dropout
 
 covid_data = pd.read_csv("cleaned_data.csv")
 
