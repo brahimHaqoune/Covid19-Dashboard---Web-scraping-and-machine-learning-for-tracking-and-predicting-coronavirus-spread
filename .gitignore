@@ -2,3 +2,8 @@ venv
 *.pyc
 .env
 .DS_Store
+*.psd
+*.pdf
+/test
+/spec
+/usr
